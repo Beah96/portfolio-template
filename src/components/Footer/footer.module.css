@@ -1,0 +1,52 @@
+@import "../../styles/globalStyles.css";
+@import "../../styles/reset.css";
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap:20px;
+    border-top: 1px solid var(--color-white);
+    border-bottom: 1px solid var(--color-white);
+    padding: 20px;
+
+}
+
+.contact__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.contact__title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.img__span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+img{
+    height: 1.125rem;
+    width: 1.125rem;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1020px){
+    footer{
+        justify-content: space-between;
+        padding: auto 5px;
+    }
+}

@@ -1,0 +1,16 @@
+@import "../../../styles/globalStyles.css";
+@import "../../../styles/reset.css";
+
+.project__ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+@media only screen and (min-width: 1020px){
+    .project__ul{
+        align-items: center;
+        justify-content: center;
+    }
+}

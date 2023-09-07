@@ -1,0 +1,30 @@
+@import "../../../styles/globalStyles.css";
+@import "../../../styles/reset.css";
+
+.card{
+    border-radius: 25px;
+    border: 1px solid var(--color-white);
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    width: 20.75rem;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+
+}
+.tech__img{
+    height: 2rem;
+    width: 2rem;
+}
+.name{
+    font-size: 1.15rem;
+    font-weight: 800;
+}
+
+@media only screen and (min-width: 1020px){
+    .card{
+        width: 18rem;
+    }
+}

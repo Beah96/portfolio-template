@@ -1,0 +1,14 @@
+:root {
+	--color-purple: #6880ffff;
+  --color-purple-hover: #7C91FF;
+	--color-white: #ffffffff;
+	--color-background:#0f0f0f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  

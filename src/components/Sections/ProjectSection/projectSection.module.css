@@ -1,0 +1,21 @@
+@import "../../../styles/globalStyles.css";
+@import "../../../styles/reset.css";
+
+.project__section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 3rem;
+
+}
+
+.project__title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+@media only screen and (min-width: 1020px){
+    
+}

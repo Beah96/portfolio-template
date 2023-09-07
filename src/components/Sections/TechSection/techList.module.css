@@ -1,0 +1,9 @@
+@import "../../../styles/globalStyles.css";
+@import "../../../styles/reset.css";
+
+.tech__ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
